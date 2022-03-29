@@ -1,0 +1,25 @@
+footer{
+	background-color:rgba(77, 194, 123, 0.9);
+	h3{
+		font-family: $fontMain;
+	 		font-size: $textLg;
+	 		color: $keyColor;
+	 		text-align: center;
+	 		padding: 0 20px
+	}
+    div{
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+     div{
+     img{
+	    width: 110px;
+		}
+		}
+	 section{
+	 	img{
+         width:70px;
+	 	}
+	 }
+	 }
+ }

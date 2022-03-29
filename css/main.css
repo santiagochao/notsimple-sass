@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+.botonera {
+  background-color: #4dc27b;
+  padding: 5px 30px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between; }
+  .botonera ul {
+    display: flex; }
+    .botonera ul li {
+      list-style: none;
+      margin-right: 20px; }
+      .botonera ul li a {
+        color: #000;
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: fontSecondary; }
+        .botonera ul li a:hover {
+          color: orange; }
+
+#dashboard {
+  background-color: #4dc27b; }
+  #dashboard img {
+    width: 100%; }
+  #dashboard h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    color: orange;
+    text-align: center;
+    padding: 0 20px; }
+  #dashboard section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    #dashboard section img {
+      width: 25%; }
+  #dashboard p {
+    color: black;
+    font-size: 1rem;
+    line-height: 1.4 em;
+    padding: 20px; }
+    #dashboard p a {
+      color: grey;
+      font-size: 1.1em; }
+
+footer {
+  background-color: rgba(77, 194, 123, 0.9); }
+  footer h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    color: orange;
+    text-align: center;
+    padding: 0 20px; }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    footer div div img {
+      width: 110px; }
+    footer div section img {
+      width: 70px; }
